@@ -1,0 +1,7 @@
+.box:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+.activeBox{
+    border: 2px solid white;
+}
