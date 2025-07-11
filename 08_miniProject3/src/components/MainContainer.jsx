@@ -33,7 +33,7 @@ function MainContainer() {
       />
       <button
       onClick={swap} 
-      className="bg-green-700/100 w-16 border text-white p-1 rounded z-10 absolute top-[32%] cursor-pointer hover:bg-green-800/100 ">
+      className="bg-green-700/100 w-16 border text-white p-1 rounded z-10 absolute top-[32%] cursor-pointer active:bg-green-800/100 hover:bg-green-800/100 ">
         swap
       </button>
       <InputCard
@@ -48,7 +48,7 @@ function MainContainer() {
         onClick={() => {
           convert();
         }}
-        className="text-white h-1/5 w-4/5 border border-white rounded-xl cursor-pointer hover:bg-green-800/50 hover:border-green-500  "
+        className="text-white h-1/5 w-4/5 border border-white rounded-xl cursor-pointer active:bg-green-800/50 hover:bg-green-800/50 hover:border-green-500  "
       >
         Convert
         <strong className="mx-1 ">{from.toUpperCase()}</strong>
